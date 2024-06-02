@@ -5,30 +5,36 @@ import Timer from "../Components/timer";
 import styled from "styled-components";
 
 const Container = styled.div`
-  text-align: center;
-  /* 노트북 & 테블릿 가로 (해상도 1024px ~ 1279px)*/
-  @media all and (min-width: 1024px) and (max-width: 1279px) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+/* 노트북 & 테블릿 가로 (해상도 1024px ~ 1279px)*/ 
+@media all and (min-width:1024px) and (max-width:1279px) { 
     /* 스타일 입력 */
-    background-color: pink;
+    background-color: white;
+  } 
+
+  /* 테블릿 가로 (해상도 769px ~ 1023px)*/ 
+  @media all and (min-width:769px) and (max-width:1023px) { 
+    /* 스타일 입력 */
+    background-color: lavender;
+  } 
+
+  /* 모바일 가로 & 테블릿 세로 (해상도 481px ~ 768px)*/ 
+  @media all and (min-width:481px) and (max-width:768px) {
+    /* 스타일 입력 */
+    background-color: ivory;
+  } 
+
+  /* 모바일 세로 (해상도 ~ 480px)*/ 
+  @media all and (max-width:480px) {
+    /* 스타일 입력 */
+    background-color: lightblue;
   }
 
-  /* 테블릿 가로 (해상도 769px ~ 1023px)*/
-  @media all and (min-width: 769px) and (max-width: 1023px) {
-    /* 스타일 입력 */
-    background-color: green;
-  }
-
-  /* 모바일 가로 & 테블릿 세로 (해상도 481px ~ 768px)*/
-  @media all and (min-width: 481px) and (max-width: 768px) {
-    /* 스타일 입력 */
-    background-color: blue;
-  }
-
-  /* 모바일 세로 (해상도 ~ 480px)*/
-  @media all and (max-width: 480px) {
-    /* 스타일 입력 */
-    background-color: yellow;
-  }
 `;
 
 const Header = styled.div`
