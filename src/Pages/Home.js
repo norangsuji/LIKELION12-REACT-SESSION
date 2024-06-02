@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {  BrowserRouter,  Route,  Routes,  Link,  useNavigate,} from "react-router-dom"; // useNavigate import 추가
+import {  BrowserRouter,  Route,  Routes,  Link,  useNavigate,} from "react-router-dom"; //여기서 오류가 났나
 import Counter from "../Components/counter";
 import Timer from "../Components/timer";
 import styled from "styled-components";
