@@ -1,4 +1,4 @@
-// App.jsx
+// App.js여긴가,,,,,,,,,여기서오류가나나,,,,,,
 import React from "react";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import Home from "./Pages/Home";
