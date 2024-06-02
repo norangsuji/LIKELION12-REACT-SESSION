@@ -13,6 +13,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+![image](https://github.com/norangsuji/LIKELION12-REACT-SESSION/assets/118612460/c105326c-aca6-4d60-926d-73ce9955ccb2)
+이거 진짜 왜뜨는지 모르겠어요,,,,,,,,,,,,,,,,,저는 아무리 생각해도 useRef 쓴 기억이 없는데
+
 
 ### `npm test`
 
