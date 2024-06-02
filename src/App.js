@@ -9,10 +9,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />{" "}
-        {/* Register 컴포넌트에 대한 라우트 */}
+        <Route path="/" element={<Home/>} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/register" element={<Register/>} />
+        {/* pages에 대한 라우트 */}
       </Routes>
     </BrowserRouter>
   );
